@@ -1,13 +1,16 @@
-# SubstancePredication
-# Packages installed  
-1. Anaconda (conda environment with python 3.6) 
-2. Keras (conda install -c -conda-forge keras) 
-3. SciKit-learn 
-4. Pandas  
-5. Matpotlib  
-6. NumPy  
-7. NLTK  
-8. Wordcloud  
+# Substance Predication
+
+# Problem Statement
+The task is to design and implement a deep learning approach to filter predications belonging to the following subset of predicates from SemMedDB, informally called the "Substance Interactions" group:
+
+ * INTERACTS_WITH
+ * STIMULATES
+ * INHIBITS
+More details about these predicates can be found in the appendix of [this article](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-486)
+
+3,000 predications from this group with binary labels indicating whether or not the given predication
+is truly asserted in the source sentence are provided in `data/substance_interactions.csv`.
+
 
 # Approach      
 I tried to implement 2 approaches, namely a linear neural network model (Sequential) (model 1) and Convolutional Neural Networks (CNN) (model 2), both using Keras libraries. I have commented the code wherever needed and explained the different strategies I tried during the course of this exercise.  
