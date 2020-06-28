@@ -39,7 +39,7 @@ The embedding matrix was the word2vec mapping of all tokens in the input corpus 
 In both cases, the train-test data split was 80%-20% respectively.    
 
 # Results     
-I plotted the history of accuracy and losses of the model predictions. Both models yielded around 60% (+/- 3%) accuracy with training and testing. There seems to be no overfitting/underfitting. Metrics for testing sets were as follows: 
+I plotted the history of accuracy and losses of the model predictions. Both models yielded around 60% (+/- 3%) accuracy with training and testing. There seems to be no overfitting. Metrics for testing sets were as follows: 
 
 ### Model 1 (Sequential) 
 1. Accuracy: 0.5833 
