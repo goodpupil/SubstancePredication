@@ -41,17 +41,10 @@ In both cases, the train-test data split was 80%-20% respectively.
 # Results     
 I plotted the history of accuracy and losses of the model predictions. Both models yielded around 60% (+/- 3%) accuracy with training and testing. There seems to be no overfitting. Metrics for testing sets were as follows: 
 
-### Model 1 (Sequential) 
-1. Accuracy: 0.5833 
-2. Precision: 0.5548 
-3. Recall: 0.8571 
-4. F-score: 0.6736  
-
-### Model 2 (CNN) 
-1. Accuracy: 0.6233 
-2. Precision: 0.6056 
-3. Recall: 0.7143 
-4. F-score: 0.6555      
+1. Accuracy
+2. Precision
+3. Recall
+4. F-score     
 
 These results are not terrible but there's room for improvement with hyperparameter tuning and design tweaks for improved metrics. Also, increasing the data volume may result in better metrics. Transfer learning may also be a good option for data this small.  
 
